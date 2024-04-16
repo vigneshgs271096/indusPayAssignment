@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { BannerComponent } from './banner/banner.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule, Routes } from '@angular/router';
+import { ServiceProvidedComponent } from './service-provided/service-provided.component';
 
 
 
@@ -15,7 +16,8 @@ const homeRoutes: Routes = [
 @NgModule({
   declarations: [
     BannerComponent,
-    HomeComponent
+    HomeComponent,
+    ServiceProvidedComponent
   ],
   imports: [
     CommonModule,

@@ -1,0 +1,51 @@
+
+/* a {
+    text-decoration: none;
+    color: #F64B4B;
+} */
+
+.small {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F64B4B;
+}
+
+.main-heading {
+    max-width: 600px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.services {
+    color: white;
+}
+
+.bg-success {
+    background-color: rgb(48 243 104 / 84%) !important;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px)); /* Example grid template */
+    gap: 20px;
+    justify-items: center; /* or any other value like flex-start, flex-end, space-between, space-around, space-evenly */
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    margin: 10px;
+}
+/* a {
+  color: blue;
+}
+
+a:hover {
+  color: red; 
+} */
